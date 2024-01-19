@@ -1,0 +1,37 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+
+}
+.text{
+    width:600px;
+    margin-top:10%
+}
+#bhai{
+    height: 400px;
+}
+span{
+    color: rgb(115, 0, 0);
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+#same{
+    margin:4px;
+    height:25px;
+}
+
+@media (max-width:400px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .text{
+        width:400px;
+    }
+}
+
